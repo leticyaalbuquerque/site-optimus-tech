@@ -1,0 +1,57 @@
+.depoimentos {
+    width: 85%;
+    background-color: var(--vinho-opaco);
+    margin: 0 auto;
+    border-radius: 1rem;
+    margin-bottom: 6rem;
+}
+
+.depoimentos__background {
+    text-align: center;
+}
+
+.depoimentos__titulo {
+    margin-bottom: 1rem;
+    color: var(--vinho);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.depoimentos__descricao {
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.depoimentos__imagem--usuario {
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.depoimentos__nome {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.depoimentos__profissao {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: var(--cinza-escuro);
+}
+
+@media screen and (min-width: 0) {
+    .depoimentos__descricao {
+        font-size: 1.5rem;
+    }
+    .depoimentos__background {
+        padding: 4rem 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .depoimentos__descricao {
+        font-size: 2.25rem;
+    }
+    .depoimentos__background {
+        padding: 4rem;
+    }
+  }

@@ -1,0 +1,16 @@
+:root {
+  --azul-escuro: #101828;
+  --branco: #fff;
+  --borda-input: #d0d5dd;
+  --cinza: #f9f9f9;
+  --cinza-claro: #eaecf0;
+  --cinza-escuro: #667085;
+  --copy: #98a2b3;
+  --vinho: #8e2424;
+  --vinho-opaco: #8e242410;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+

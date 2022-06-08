@@ -1,0 +1,65 @@
+.cabecalho {
+  align-items: center;
+  background-color: var(--cinza);
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.cabecalho__logo {
+  height: 27px;
+}
+
+.menu__lista {
+  display: flex;
+}
+
+.menu__item {
+  color: var(--cinza-escuro);
+  font-size: 1rem;
+  margin-right: 1.2rem;
+}
+
+.cabecalho__botoes--entrar {
+  color: var(--cinza-escuro);
+  font-size: 1rem;
+  background: none;
+  border: none;
+}
+
+.cabecalho__botoes--cadastrar {
+  margin-left: 0.75rem;
+  background-color: var(--vinho);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: var(--branco);
+  padding: 0.625rem 1.25rem;
+}
+
+@media screen and (min-width: 0) {
+  .cabecalho {
+    padding: 0 2rem;
+  }
+  .menu__lista {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 0 3rem;
+    }
+  .menu__lista {
+    display: flex;
+  }
+  .cabecalho__botoes {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cabecalho {
+    padding: 0 4rem;
+  }
+}

@@ -1,0 +1,54 @@
+.vagas__abertas--area {
+  padding-bottom: 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.vagas__abertas--cargo {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--cinza-claro);
+  margin-bottom: 1.5rem;
+}
+
+.vagas__abertas--design {
+  margin-bottom: 4rem;
+}
+
+.vagas__abertas--titulo {
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+.vagas__abertas--descricao {
+  display: flex;
+  color: var(--cinza-escuro);
+  font-weight: 500;
+}
+
+.vagas__abertas--horario {
+  margin-right: 1.5rem;
+}
+
+@media screen and (min-width: 0) {
+  .vagas__abertas--design {
+    width: 100%px;
+  }
+
+  .vagas__abertas--desenvolvedor {
+    width: 100%;
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .vagas__abertas--design {
+    width: 70%;
+  }
+
+  .vagas__abertas--desenvolvedor {
+    margin-top: 4rem;
+  }
+}
+

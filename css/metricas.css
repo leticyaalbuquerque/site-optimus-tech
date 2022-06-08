@@ -1,0 +1,53 @@
+.metricas__item--titulo {
+  color: var(--vinho);
+  font-size: 3.75rem;
+  font-weight: 600;
+}
+
+.metricas__item--subtitulo {
+  color: var(--azul-escuro);
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 0.75rem 0;
+}
+
+.metricas__item--descricao {
+  color: var(--cinza-escuro);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 0) {
+  .metricas {
+    display: flex;
+    padding-bottom: 1rem;
+  }
+  .metricas__lista {
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .metricas__item {
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .metricas {
+    display: flex;
+    padding-bottom: 6rem;
+  }
+  .metricas__lista {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 85%;
+  }
+  .metricas__item {
+    align-items: center;
+    width: 23%;
+  }
+}
+
